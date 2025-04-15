@@ -5,7 +5,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from datetime import datetime, timedelta
 import asyncio
 
-API_TOKEN = 'YOUR_BOT_TOKEN'
+API_TOKEN = '8151839888:AAFSKa2K6Ns8wAG8wLhJY1JbUIFmz1ylkgk'
 
 CURRENCY_NAME = "كوين"
 DAILY_REWARD = 5
