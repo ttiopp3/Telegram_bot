@@ -53,4 +53,5 @@ async def referral_link(message: types.Message):
 t.me/Queenn00_bot?start={user_id}")
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    import asyncio
+asyncio.run(dp.start_polling())
